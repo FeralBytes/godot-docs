@@ -145,7 +145,7 @@ precise control over the timings.
             set_process(false)
             return
 
-        if wait_frames > 0: # wait for frames to let the "loading" animation to show up
+        if wait_frames > 0: # wait for frames to let the "loading" animation show up
             wait_frames -= 1
             return
 
